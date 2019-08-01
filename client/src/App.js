@@ -10,7 +10,7 @@ class App extends Component {
     return (
 
       <div className="App">
-        <Container>
+        <Container className='app-container'>
           <NavExample />
         </Container>
       </div>

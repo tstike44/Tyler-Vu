@@ -1,6 +1,6 @@
 import React from "react";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	Navbar,
 	NavbarToggler,
@@ -8,16 +8,15 @@ import {
 	Nav,
 	NavItem,
 	NavLink,
-	Dropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
-	InputGroup,
-	InputGroupAddon,
-	InputGroupText,
-	FormInput,
-	Collapse
+	Collapse,
+	// Dropdown,
+	// DropdownToggle,
+	// DropdownMenu,
+	// DropdownItem,
+	Row
+	// Column
 } from "shards-react";
+
 import './Navbar.css'
 
 export default class NavExample extends React.Component {
@@ -53,37 +52,38 @@ export default class NavExample extends React.Component {
 
 	render() {
 		return (
-			<Navbar type="dark" theme="primary" expand="md">
-				<NavbarToggler onClick={this.toggleNavbar} />
-
-				<Collapse open={this.state.collapseOpen} navbar>
-					<Nav navbar>
-						<NavItem>
-							<NavLink active href="#">
-								Active
+			<Navbar type="dark" theme="dark" expand="md">
+				{/* <Row> */}
+				{/* <div id='nav-div'> */}
+					<NavbarToggler onClick={this.toggleNavbar} />
+					<Collapse open={this.state.collapseOpen} navbar>
+						<NavbarBrand id="name" className="nav-brand" href="#">
+						Tyler Vu</NavbarBrand>
+						<Nav navbar>
+							<NavItem>
+								<NavLink id="about-link" className="nav-item" active href="#">
+									About
               </NavLink>
-						</NavItem>
-						<NavItem>
-							<NavLink href="#" disabled>
-								Disabled
+							</NavItem>
+							<NavItem>
+								<NavLink id="cv-link" className="nav-item" active href="#">
+									CV
               </NavLink>
-						</NavItem>
-						<Dropdown
-							open={this.state.dropdownOpen}
-							toggle={this.toggleDropdown}
-						>
-							<DropdownToggle nav caret>
-								Dropdown
-              </DropdownToggle>
-							<DropdownMenu>
-								<DropdownItem>Action</DropdownItem>
-								<DropdownItem>Another action</DropdownItem>
-								<DropdownItem>Something else here</DropdownItem>
-							</DropdownMenu>
-						</Dropdown>
-					</Nav>
-					<NavbarBrand className="brand-name" href="#">Tyler-vu</NavbarBrand>
-				</Collapse>
+							</NavItem>
+							<NavItem>
+								<NavLink id="research-link" className="nav-item" href="#" active>
+									Research
+              </NavLink>
+							</NavItem>
+							<NavItem>
+								<NavLink id="contact-link" className="nav-item" href="#" active>
+									Contact
+              </NavLink>
+							</NavItem>
+						</Nav>
+					</Collapse>
+					{/* </div> */}
+				{/* </Row> */}
 			</Navbar>
 		);
 	}
