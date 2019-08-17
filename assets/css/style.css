@@ -1,6 +1,12 @@
 .about-header {
     text-align: center;
 }
+
+.about-par{
+     padding: 5px;
+     margin-bottom: 5%;
+}
+
 .about-photo {
     float: left;
     height: 250px;
@@ -11,6 +17,10 @@
 
 .bio { 
     font-size: 20px;
+}
+
+.section-break {
+    width: 100%;
 }
 
  /* Small devices (landscape phones, 576px and up) */
