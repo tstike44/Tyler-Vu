@@ -20,7 +20,14 @@
 }
 
 .section-break {
-    width: 100%;
+    /* border-top: 1px solid grey;
+    width: 120%; */
+    position:relative;
+    height:1px;
+    background: #cfd4d4;
+    overflow:hidden;
+    width:600%;
+    margin-left: -100%;
 }
 
  /* Small devices (landscape phones, 576px and up) */
