@@ -15,10 +15,10 @@
     font-size: 20px;
 }
 .cv-container {
-    margin-right: 200px;
-    
+    display: flex;    
 }
 .cv-pdf {
+    margin: auto;
     height: 800px;
     width: 700px;
 }
