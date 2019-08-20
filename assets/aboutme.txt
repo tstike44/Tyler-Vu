@@ -1,6 +1,0 @@
-About Me: 
-
-I am a 2nd year biostatistics PhD student at the University of California, San Diego School of Medicine working with Dr. Xin Tu and Dr. Victor De Gruttola. I received my bachelor’s degree in applied mathematics at California State University, Fullerton. My research interests lie in statistical methods for appropriate public health response to the AIDS epidemic. Currently, I work on approaches for missing survey data in Botswana to understand the transmission of HIV and the impact of antiviral treatment between communities.  
-
-Previously, I was a data analyst intern at the Southern California Coastal Water Research Project and a participant in the 2017 Summer Program in Biostatistics and Computational Biology at the Harvard T.H. Chan School of Public Health where I worked with Dr. Sherri Rose.  
-
