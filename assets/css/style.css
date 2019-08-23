@@ -14,6 +14,11 @@
 .bio { 
     font-size: 20px;
 }
+
+.button-break {
+  margin-top: 5px; 
+}
+
 .cv-wrapper {
     display: flex;  
     margin-bottom: 2%;
@@ -25,10 +30,32 @@
     width: 700px;
 }
 
+.email {
+    margin-bottom: 15px;
+}
+
+.email-input {
+    margin-bottom: 5px;
+}
+
 /* .footer {
     background: black;
     height: 5px;
 } */
+
+.send-button {
+    border-radius: 50px;
+    background-color:#55ACEE; 
+    color : white;
+}
+
+.twitter {
+    height: 2%;
+}
+.twitter-timeline {
+    width: 100%;
+}
+
 
 .section-break {
     background: #cfd4d4;

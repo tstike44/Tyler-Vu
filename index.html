@@ -1,182 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Tyler Vu</title>
-  </head>
+  <title>Tyler Vu</title>
+</head>
 
-  <body>
-    <!-- main container -->
-    <div class="container-fluid">
+<body>
+  <!-- main container -->
+  <div class="container-fluid">
 
-      <!-- set the one to be clicked as active in js -->
-      <nav class="nav navbar navbar-dark bg-dark nav-pills flex-column flex-sm-row">
-        <!-- about me button -->
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
-        <!-- cv button -->
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">CV</a>
-        <!-- name -->
-        <a class="navbar-brand flex-sm-fill text-sm-center nav-link" id="nav-name" href="#">Tyler Vu</a>
-        <!-- research button -->
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Research</a>
-        <!-- contact button -->
-        <a class="flex-sm-fill text-sm-center nav-link " href="#" tabindex="-1">Contact</a>
-      </nav>
+    <!-- set the one to be clicked as active in js -->
+    <nav class="nav navbar navbar-dark bg-dark nav-pills flex-column flex-sm-row">
+      <!-- about me button -->
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
+      <!-- cv button -->
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">CV</a>
+      <!-- name -->
+      <a class="navbar-brand flex-sm-fill text-sm-center nav-link" id="nav-name" href="#">Tyler Vu</a>
+      <!-- research button -->
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Research</a>
+      <!-- contact button -->
+      <a class="flex-sm-fill text-sm-center nav-link " href="#" tabindex="-1">Contact</a>
+    </nav>
 
-      <!-- about me section -->
-      <div class="about-me">
+    <!-- about me section -->
+    <div class="about-me">
 
-        <!-- about me paragraph header -->
-        <div class="section-header">
-          <h1>About Me</h1>
-        </div>
-
-        <!-- bio paragraph -->
-        <div class="about-par">
-          <p class="bio">
-            <img class="about-photo" src="/assets/images/about-photo.jpg" alt="tyler photo">
-            I am a 2nd year biostatistics PhD student at the University of
-            California, San Diego School of Medicine
-            working with Dr. Xin Tu and Dr. Victor De Gruttola. I received my bachelor’s degree in applied mathematics
-            at
-            California State University, Fullerton. My research interests lie in statistical methods for appropriate
-            public health response to the AIDS epidemic. Currently, I work on approaches for missing survey data in
-            Botswana to understand the transmission of HIV and the impact of antiviral treatment between communities.
-
-            Previously, I was a data analyst intern at the Southern California Coastal Water Research Project and a
-            participant in the 2017 Summer Program in Biostatistics and Computational Biology at the Harvard T.H. Chan
-            School of Public Health where I worked with Dr. Sherri Rose.
-          </p>
-        </div>
-      </div> <!-- end of about me -->
-
-      <!-- break apart each section -->
-      <div class="section-break"></div>
-
-      <!-- cv header -->
+      <!-- about me paragraph header -->
       <div class="section-header">
-        <h1>CV (Updated as of August 2018)</h1>
+        <h1>About Me</h1>
       </div>
 
-      <!-- cv container -->
-      <div class="cv-wrapper">
-        <iframe class="cv-pdf" src="./assets/CV/TylerVuCV.pdf"></iframe>
-      </div> <!--  end of cv -->
+      <!-- bio paragraph -->
+      <div class="about-par">
+        <p class="bio">
+          <img class="about-photo" src="/assets/images/about-photo.jpg" alt="tyler photo">
+          I am a 2nd year biostatistics PhD student at the University of
+          California, San Diego School of Medicine
+          working with Dr. Xin Tu and Dr. Victor De Gruttola. I received my bachelor’s degree in applied mathematics
+          at
+          California State University, Fullerton. My research interests lie in statistical methods for appropriate
+          public health response to the AIDS epidemic. Currently, I work on approaches for missing survey data in
+          Botswana to understand the transmission of HIV and the impact of antiviral treatment between communities.
 
-      <!-- break apart each section -->
-      <div class="section-break"></div>
-
-      <!-- research section -->
-      <div class="section-header">
-        <h1>Reasearch</h1>
-      </div>
-      <div class="research">
-        <h2>Multimodal Biometrics for User Authentication on Mobile Devices
-        </h2>
-        <h4>Advisor: Mikhail Gofman, PhD</h4>
-        <p>
-          Generally, modern mobile devices identify users based on a single biometric such as face, fingerprint or
-          voice.
-          Prior works have shown that a greater identification accuracy can be obtained by implementing feature-level
-          fusion on multiple biometrics. We propose a novel feature-level fusion approach for combining
-          histogram-oriented
-          gradients features from the face with mel-frequency cepstral coefficient features from the voice. The
-          classifiers we consider are KNN, LDA, QDA, RF and SVM. We find that for all classifiers, the multimodal
-          approach
-          significantly outperforms the unimodal face and voice approaches while taking less than 0.02 seconds to
-          identify
-          a user on a Samsung Galaxy S7 phone.
-        </p>
-
-        <!-- part 2 -->
-        <h2>Predicting the Fragility of a Country</h2>
-        <h4>Advisor: Sherri Rose, PhD</h4>
-        <p>
-          Fragile countries are considered to be countries with unstable governments and politics along with limited
-          resources. Identifying fragile countries may allow government officials and related personnel to anticipate
-          changes in needed aid to minimize the severity of the effects from natural disasters and disease outbreaks.
-          Using socio-economic data, we implement classifiers to predict fragile countries. Classifiers we considered
-          were
-          GLM, GLMNET, GAM, Classification Tree and Pruned Classification Tree. We have that a classification tree
-          obtains
-          the highest accuracy (90%) and a respectable R2 and AUC, while utilizing only two out of nine of our predictor
-          variables, which is beneficial due to the difficulty of obtaining data from fragile countries.
-        </p>
-
-        <!-- part 3 -->
-        <h2>Assessing Spatial and Temporal Variances of the Toxicity Levels of the Southern California Bight with Linear
-          Mixed Models
-        </h2>
-        <h4>Advisor: Laura Smith, PhD</h4>
-        <p>
-          The Southern California Coastal Water Research Project (SCCWRP) implements a regional monitoring program for
-          the Southern California Bight (SCB). Data collected from sampled points of interest are used by SCCWRP to
-          assess
-          the toxicity levels of the SCB. In the past, SCCWRP used an equal number of new and previously visited sites
-          for
-          sampling. The decision of the ratio of new sites versus previously visited sites is of importance to SCCWRP.
-          Using previously collected data, we use mixed-effect models to determine spatial and temporal variances of
-          toxicity and abundance of metals. We have that the spatial variances exceeds the temporal variances for both
-          variables. We conclude that the ratio of new sites and previously visited sites be adjusted in favor of more
-          new
-          sites for a better assessment of the SCB.
-        </p>
-
-        <!-- part 4 -->
-        <h2>Risk Parity Control Portfolio Optimization with l <sub>1</sub> Regularization using Split Bregman</h2>
-        <h4>Advisor: Laura Smith, PhD</h4>
-        <p>
-          Often, portfolio optimization methods result in a portfolio divided among many assets, which is not ideal for
-          transaction costs. Therefore, some existing methods use the l<sub>0</sub> norm in the objective function to
-          promote sparse solutions. Using the l<sub>0</sub> norm results in a nonconvex objective function, often
-          requiring complex methods to solve. We adapt the objective function from Feng and Palomar to include an
-          l<sub>1</sub> norm and use Split Bregman method to obtain the optimal and spare solution. We find that our
-          proposed model produces sparse results with a lower volatility in comparison to various methods including the
-          Feng-Palomar model while obtaining a significantly faster run-time than the Feng-Palomar model, especially
-          when
-          consider a large number of assets.
+          Previously, I was a data analyst intern at the Southern California Coastal Water Research Project and a
+          participant in the 2017 Summer Program in Biostatistics and Computational Biology at the Harvard T.H. Chan
+          School of Public Health where I worked with Dr. Sherri Rose.
         </p>
       </div>
+    </div> <!-- end of about me -->
 
-      <!-- break apart each section -->
-      <div class="section-break"></div>
+    <!-- break apart each section -->
+    <div class="section-break"></div>
 
-      <div class="contact-header">
-        <h1>Contact Me</h1>
-      </div>
-      <h5>Subject</h5>
-      <input>
-      <h5>Email</h5>
-      <input>
-      <h5>Message</h5>
-      <input>
-      <button>Send</button>
+    <!-- cv header -->
+    <div class="section-header">
+      <h1>CV (Updated as of August 2018)</h1>
+    </div>
 
-      <!-- <footer class="footer">footer</footer> -->
+    <!-- cv container -->
+    <div class="cv-wrapper">
+      <iframe class="cv-pdf" src="./assets/CV/TylerVuCV.pdf"></iframe>
+    </div> <!--  end of cv -->
 
-    </div> <!-- end of container -->
+    <!-- break apart each section -->
+    <div class="section-break"></div>
+
+    <!-- research section -->
+    <div class="section-header">
+      <h1>Reasearch</h1>
+    </div>
+    <div class="research">
+      <h2>Multimodal Biometrics for User Authentication on Mobile Devices
+      </h2>
+      <h4>Advisor: Mikhail Gofman, PhD</h4>
+      <p>
+        Generally, modern mobile devices identify users based on a single biometric such as face, fingerprint or
+        voice.
+        Prior works have shown that a greater identification accuracy can be obtained by implementing feature-level
+        fusion on multiple biometrics. We propose a novel feature-level fusion approach for combining
+        histogram-oriented
+        gradients features from the face with mel-frequency cepstral coefficient features from the voice. The
+        classifiers we consider are KNN, LDA, QDA, RF and SVM. We find that for all classifiers, the multimodal
+        approach
+        significantly outperforms the unimodal face and voice approaches while taking less than 0.02 seconds to
+        identify
+        a user on a Samsung Galaxy S7 phone.
+      </p>
+
+      <!-- part 2 -->
+      <h2>Predicting the Fragility of a Country</h2>
+      <h4>Advisor: Sherri Rose, PhD</h4>
+      <p>
+        Fragile countries are considered to be countries with unstable governments and politics along with limited
+        resources. Identifying fragile countries may allow government officials and related personnel to anticipate
+        changes in needed aid to minimize the severity of the effects from natural disasters and disease outbreaks.
+        Using socio-economic data, we implement classifiers to predict fragile countries. Classifiers we considered
+        were
+        GLM, GLMNET, GAM, Classification Tree and Pruned Classification Tree. We have that a classification tree
+        obtains
+        the highest accuracy (90%) and a respectable R2 and AUC, while utilizing only two out of nine of our predictor
+        variables, which is beneficial due to the difficulty of obtaining data from fragile countries.
+      </p>
+
+      <!-- part 3 -->
+      <h2>Assessing Spatial and Temporal Variances of the Toxicity Levels of the Southern California Bight with Linear
+        Mixed Models
+      </h2>
+      <h4>Advisor: Laura Smith, PhD</h4>
+      <p>
+        The Southern California Coastal Water Research Project (SCCWRP) implements a regional monitoring program for
+        the Southern California Bight (SCB). Data collected from sampled points of interest are used by SCCWRP to
+        assess
+        the toxicity levels of the SCB. In the past, SCCWRP used an equal number of new and previously visited sites
+        for
+        sampling. The decision of the ratio of new sites versus previously visited sites is of importance to SCCWRP.
+        Using previously collected data, we use mixed-effect models to determine spatial and temporal variances of
+        toxicity and abundance of metals. We have that the spatial variances exceeds the temporal variances for both
+        variables. We conclude that the ratio of new sites and previously visited sites be adjusted in favor of more
+        new
+        sites for a better assessment of the SCB.
+      </p>
+
+      <!-- part 4 -->
+      <h2>Risk Parity Control Portfolio Optimization with l <sub>1</sub> Regularization using Split Bregman</h2>
+      <h4>Advisor: Laura Smith, PhD</h4>
+      <p>
+        Often, portfolio optimization methods result in a portfolio divided among many assets, which is not ideal for
+        transaction costs. Therefore, some existing methods use the l<sub>0</sub> norm in the objective function to
+        promote sparse solutions. Using the l<sub>0</sub> norm results in a nonconvex objective function, often
+        requiring complex methods to solve. We adapt the objective function from Feng and Palomar to include an
+        l<sub>1</sub> norm and use Split Bregman method to obtain the optimal and spare solution. We find that our
+        proposed model produces sparse results with a lower volatility in comparison to various methods including the
+        Feng-Palomar model while obtaining a significantly faster run-time than the Feng-Palomar model, especially
+        when
+        consider a large number of assets.
+      </p>
+    </div>
+
+    <!-- break apart each section -->
+    <div class="section-break"></div>
+
+    <div class="section-header">
+      <h1>Contact Me</h1>
+    </div>
+    <div class="contact-area row">
+      <div class="col-6">
+        <div class="email">
+          <h5>Subject</h5>
+          <input class="email-input">
+          <h5>Email</h5>
+          <input class="email-input">
+          <h5>Message</h5>
+          <input class="email-input">
+          <div class="button-break">
+            <button class="send-button">Send</button>
+          </div>
+        </div> <!-- end of email section -->
+      </div> <!-- end of column -->
+
+      <!-- <div class="section-break"></div> -->
+      <div class="col-6 twitter">
+        <div class="twitter">
+          <a class="twitter-timeline" href="https://twitter.com/TylerVu_?ref_src=twsrc%5Etfw">Tweets by TylerVu_</a>
+        </div> <!-- end of twitter timeline -->
+      </div> <!-- end of twitter column -->
+    </div> <!-- end of contact row -->
+
+    <!-- <footer class="footer">footer</footer> -->
+  </div> <!-- end of container -->
 
 
-    <!-- bootstrap  -->
-    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-      </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-      </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-      </script>
-    <!-- js file -->
-    <script src="/assets/javascript/index.js"></script>
-  </body>
+
+  <!-- bootstrap  -->
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+  <!-- twitter -->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <!-- js file -->
+  <script src="/assets/javascript/index.js"></script>
+</body>
 
 </html>
