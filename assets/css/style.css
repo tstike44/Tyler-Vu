@@ -44,18 +44,21 @@
 } */
 
 .send-button {
+    background-color: #55ACEE;
+    border: 1px solid white;
     border-radius: 50px;
-    background-color:#55ACEE; 
     color : white;
+    height: 30px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    width: 60px;
+    
 }
 
-.twitter {
-    height: 2%;
-}
-.twitter-timeline {
-    width: 100%;
-}
-
+.send-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 
 .section-break {
     background: #cfd4d4;
@@ -72,6 +75,17 @@
     text-align: center;
 }
 
+.contact-area {
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.twitter-container {
+    border: 5px solid black;
+}
+.twitter-timeline {
+    width: 100%;
+}
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { };
 
