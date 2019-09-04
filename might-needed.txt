@@ -1,0 +1,91 @@
+//navbar
+ <!-- set the one to be clicked as active in js -->
+      <nav class="nav navbar navbar-dark bg-dark nav-pills flex-column flex-sm-row">
+
+        <ul class="nav-item-list">
+
+          <li class="nav-item">
+            <!-- about me button -->
+            <a class="flex-sm-fill text-sm-center nav-link" href="#about-me">About</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- cv button -->
+            <a class="flex-sm-fill text-sm-center nav-link" href="#cv-section">CV</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- name -->
+            <a class="navbar-brand flex-sm-fill text-sm-center nav-link" id="nav-name" href="#about">Tyler Vu</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- research button -->
+            <a class="flex-sm-fill text-sm-center nav-link" href="#research-section">Research</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- contact button -->
+            <a class="flex-sm-fill text-sm-center nav-link " href="#contact-area" tabindex="-1">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+//contact section
+<div class="section-header">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="contact-area row" id="contact-section">
+        <div class="col-8">
+          <div class="email">
+            <h5>Subject</h5>
+            <input class="email-input">
+            <h5>Email</h5>
+            <input class="email-input">
+            <h5>Message</h5>
+            <input class="email-input">
+            <div class="button-break">
+              <button class="send-button">Send</button>
+            </div>
+          </div> <!-- end of email section -->
+      
+        </div> <!-- end of column -->
+      
+ 
+        <div class="col-3 twitter-container">
+
+          <div class="twitter-buttons">
+            <!-- follow button -->
+            <a href="https://twitter.com/TylerVu_?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+              data-show-count="false">Follow @TylerVu_</a>
+
+              <!-- tweet at button -->
+              <a href="https://twitter.com/intent/tweet?screen_name=TylerVu_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TylerVu_</a>
+          </div> <!-- follow button -->
+
+          <!-- twitter timeline -->
+          <div class="timeline-area">
+            <a class="twitter-timeline data-width="300"
+            data-height="500"" href="https://twitter.com/TylerVu_?ref_src=twsrc%5Etfw">
+              Tweets by TylerVu_</a>
+          </div> <!-- end of twitter timeline -->
+
+        </div> <!-- end of twitter column -->
+
+      </div> <!-- end of contact row -->
+
+      <!-- <footer class="footer">footer</footer> -->
+    </div> <!-- end of container -->
