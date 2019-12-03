@@ -207,6 +207,10 @@ hr {
 		color: black;
 }
 
+.updated-text {
+	padding-top: 30px;
+}
+
 .cv-hr {
 	background-color: black;
 	height: 4px;
@@ -658,6 +662,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
+@media(min-width:350px) {
+	.updated-text {
+		font-size: 25px;
+	}
+}
+
 @media(min-width:768px) {
 .intro {
 	height: 100%;
@@ -718,6 +728,7 @@ header .intro-text {
 	padding: 0 30px 20px 20px;
 	text-align: left;
 }
+
 }
 
 @media(min-width:992px) {
