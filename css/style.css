@@ -662,12 +662,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
-@media(min-width:350px) {
+@media(max-width:400px) {
 	.updated-text {
 		font-size: 25px;
 	}
 	.pdf-file {
-		width: 100%;
+		width: 90%;
 		height: 700px;
 	}
 }
