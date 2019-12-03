@@ -195,7 +195,7 @@ hr {
 #about img {
 	border-radius: 10%;
 	width: 350px;
-	height: 250px;
+	height: 210px;
 	display: inline-block;
 }
 #about p {
@@ -205,11 +205,6 @@ hr {
 /* Skills Section */
 .cv-header-text{
 		color: black;
-		line-height: 20px;
-    margin: 0;
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-size: 34px;
 }
 
 .cv-hr {
